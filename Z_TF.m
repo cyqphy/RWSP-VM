@@ -1,5 +1,7 @@
 %% Calculate the average ionization employing TF model
-% the fitting parameters are from 
+% the fitting parameters are from
+% R. M. More, Advances in Atomic and Molecular Physics 21, 305 (1985). 
+% Also, the parameters have been recorded in 
 % Chinese Journal of Computational Physics Vol.34, No.5, PP505, 2017
 % on Page 511
 % inputs: quantity, unit
