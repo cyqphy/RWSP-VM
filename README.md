@@ -3,19 +3,19 @@ Random-walk shielding-potential viscosity model (RWSP-VM) is used to calculate t
 
 % --------------Copyright(c)--------------
 
-Version: 3.3
+Version: 3.4
 
 Created by: Yuqing Cheng, ORCID: 0000-0002-3371-9164
 
 Created date: March 10, 2020
 
-Last modified date: January 10, 2022
+Last modified date: June 7, 2022
 
 % -----------------------------------------
 
 These are the codes for Random-Walk Shielding-Potential Vicosity Model, which can be run through Matlab.
 
-This program contains three files: RWSPVM.m, Z_TF.m and Inti2ii.m.
+This program contains three files: RWSPVM.m, Z_TF.m and Inti2ii2.m.
 
 ------- RWSPVM.m -------
 
@@ -31,7 +31,7 @@ Temperature range can be changed when necessary.
 This is the function that calculates the average ionization as a function of temperature.
 
 
-------- Inti2ii.m -------
+------- Inti2ii2.m -------
 
 This is the function that calculates the integral term (Equation 7) as a function of temperature.
 
