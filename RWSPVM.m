@@ -126,7 +126,7 @@ ylabel('Eta (mPa s)');
 legend('RWSP-VM');
 
 %%
-fprintf('Completed!\nTotal time cost: %.2f second(s)\n',timepass);
+fprintf('Completed!\nTotal time cost: %.4f second(s)\n',timepass);
 
 
 
