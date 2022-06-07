@@ -1,9 +1,9 @@
 % --------------Copyright(c)--------------
 % File name: RWSPVM.m
-% Version: 3.3
+% Version: 3.4
 % Created by: Yuqing Cheng, ORCID: 0000-0002-3371-9164
 % Created date: March 10, 2020
-% Last modified date: January 10, 2022
+% Last modified date: June 7, 2022
 % Descriptions: This is the program to calculate the viscosity in warm
 % temperature range, employing our random-walk shielding-potential
 % viscosity model (RWSP-VM). We give 4 examples: Al, Fe, U and Be. Other
