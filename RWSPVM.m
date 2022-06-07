@@ -115,6 +115,9 @@ Tupper=Te(Nupper); % eV, upper limit of temperature
 Etaupper=Eta(Nupper); % mPa s, upper limit of viscosity
 Results_cutoff=[Tlower,Etadown,Tupper,Etaupper]; % eV, cut-off temperature and corresponding viscosity 
 
+%% 
+timepass=toc;
+
 %% Figure
 figure;
 loglog(Te,Eta,'b');
@@ -123,7 +126,6 @@ ylabel('Eta (mPa s)');
 legend('RWSP-VM');
 
 %%
-timepass=toc;
 fprintf('Completed!\nTotal time cost: %.2f second(s)\n',timepass);
 
 
