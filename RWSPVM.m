@@ -81,7 +81,28 @@ Tfe=Tf/elect*kb; % eV, Fermi temperature
 
 %% Calculate the intigrating term: I(T)
 tic; % Timer start
+
+% \\choose one of the two methods below\\ %
+
+% %------- 1 numerical -------
+% I_T_ii=zeros(NT,1);
+% for j=1:NT
+%    I_T_ii(j,1)=Inti2ii(T(j),Z_M(j,1),LD(j,1)); % m^2, integral term
+% 
+%    % --------------- Timer ----------------
+%    percents=j/NT*100;
+%    clc;
+%    timepass=toc;
+%    fprintf('Calculating the inigrating term I(T): %.1f%% have been done.\n',percents);
+%    run_speed=j/timepass;
+%    fprintf('About %.0f min %.1f s remain.\n',floor((NT-j)/run_speed/60),mod((NT-j)/run_speed,60));
+%    % --------------- Timer ----------------
+% end
+% %------- 1 numerical -------//
+
+% %------- 2 analytical, Eq. (8) -------
 I_T_ii=Inti2ii2(T,Z_M,LD);
+% %------- 2 analytical, Eq. (8) -------//
 
 %% The viscosity
 d=LD; % m, cut-off distance
